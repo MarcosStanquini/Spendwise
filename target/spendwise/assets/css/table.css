@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgba(191,208,233,1) 0%, rgba(173,197,232,1) 9%, rgba(168,194,232,1) 38%, rgba(126,155,199,1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+}
+
+.table-container table {
+    width: 700px;
+    margin: 0 10px 0 10px;
+    background-color: #ffffff;
+    color: #333333;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-container table:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table-container th {
+    background-color: #007BFF;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-container tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+.edit-icon,
+.delete-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.edit-icon {
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.delete-icon {
+    background-color: red;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.action-icons .edit-icon,
+.action-icons .delete-icon {
+    cursor: pointer;
+}
+
+.action-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    color: inherit;
+}
+
+.spend_logo {
+  font-family: 'Poppins', sans-serif;
+}
+
+.spend_text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.spend_text_secondary {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text_nav {
+    font-size: larger;
+  }
+
+@media only screen and (max-width:1455){
+    .table-container{
+        flex-direction: column;
+    }
+}
+  

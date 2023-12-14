@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ADA !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.spend_logo {
+  font-family: 'Poppins', sans-serif;
+}
+
+.spend_text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.spend_text_secondary {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text_nav {
+  font-size: larger;
+}
